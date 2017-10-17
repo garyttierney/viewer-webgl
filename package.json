@@ -1,0 +1,23 @@
+{
+  "name": "viewer-webgl",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/gl-matrix": "^2.3.1",
+    "gl-matrix": "^2.4.0",
+    "shader-loader": "^1.3.1",
+    "ts-loader": "^2.0.1",
+    "typescript": "^2.2.1",
+    "typings": "^2.1.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "manifesto.js": "^2.1.9"
+  }
+}
